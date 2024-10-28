@@ -4,6 +4,7 @@ using LINQForBeginners.LINQ.AggregateOperations;
 using LINQForBeginners.LINQ.Conversions;
 using LINQForBeginners.LINQ.ElementOperations;
 using LINQForBeginners.LINQ.Generators;
+using LINQForBeginners.LINQ.Groupings;
 
 AggregateOperators aggregateOperators = new AggregateOperators();
 //aggregateOperators.SeededAggregate();
@@ -28,6 +29,13 @@ ElementOperations elementOperations = new ElementOperations();
 #region Generators
 
 Generators generators = new Generators();
-generators.RepeatNumber();
+//generators.RepeatNumber();
+
+#endregion
+
+#region Groupings
+
+Groupings groupings = new Groupings();
+groupings.NestedGrouBy();
 
 #endregion
