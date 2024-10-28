@@ -5,6 +5,8 @@ using LINQForBeginners.LINQ.Conversions;
 using LINQForBeginners.LINQ.ElementOperations;
 using LINQForBeginners.LINQ.Generators;
 using LINQForBeginners.LINQ.Groupings;
+using LINQForBeginners.LINQ.JoinOperations;
+using LINQForBeginners.LINQ.Orderings;
 
 AggregateOperators aggregateOperators = new AggregateOperators();
 //aggregateOperators.SeededAggregate();
@@ -36,6 +38,20 @@ Generators generators = new Generators();
 #region Groupings
 
 Groupings groupings = new Groupings();
-groupings.NestedGrouBy();
+//groupings.NestedGrouBy();
+
+#endregion
+
+#region JoinOperations
+
+JoinOperations joinOperations = new JoinOperations();
+//joinOperations.CrossGroupJoin();
+
+#endregion
+
+#region Orderings
+
+Orderings orderings = new Orderings();
+orderings.OrderByProductsDescending();
 
 #endregion
