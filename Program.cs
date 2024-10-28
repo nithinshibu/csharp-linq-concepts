@@ -3,6 +3,7 @@
 using LINQForBeginners.LINQ.AggregateOperations;
 using LINQForBeginners.LINQ.Conversions;
 using LINQForBeginners.LINQ.ElementOperations;
+using LINQForBeginners.LINQ.Generators;
 
 AggregateOperators aggregateOperators = new AggregateOperators();
 //aggregateOperators.SeededAggregate();
@@ -20,6 +21,13 @@ Conversions conversions = new Conversions();
 #region ElementOperations
 
 ElementOperations elementOperations = new ElementOperations();
-elementOperations.ElementAtPosition();
+//elementOperations.ElementAtPosition();
+
+#endregion
+
+#region Generators
+
+Generators generators = new Generators();
+generators.RepeatNumber();
 
 #endregion
