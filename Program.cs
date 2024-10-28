@@ -7,6 +7,7 @@ using LINQForBeginners.LINQ.Generators;
 using LINQForBeginners.LINQ.Groupings;
 using LINQForBeginners.LINQ.JoinOperations;
 using LINQForBeginners.LINQ.Orderings;
+using LINQForBeginners.LINQ.Partitions;
 
 AggregateOperators aggregateOperators = new AggregateOperators();
 //aggregateOperators.SeededAggregate();
@@ -52,6 +53,12 @@ JoinOperations joinOperations = new JoinOperations();
 #region Orderings
 
 Orderings orderings = new Orderings();
-orderings.OrderByProductsDescending();
+//orderings.OrderByProductsDescending();
 
+#endregion
+
+#region Partitions
+
+Partitions partitions = new Partitions();
+partitions.NestedTake();
 #endregion
