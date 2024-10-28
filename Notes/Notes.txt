@@ -1,0 +1,3 @@
+﻿This source code (LINQForBeginners) contains my LINQ learnings from the dotnet-try-samples github repo
+
+https://github.com/dotnet/try-samples/tree/main/101-linq-samples
